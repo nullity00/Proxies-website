@@ -47,7 +47,7 @@
   padding-left: #{$gutter-spacing-sm + $sp-5};
   font-size: 16px;
   color: $body-text-color;
-  background-color: $search-background-color;
+  /*background-color: $search-background-color;*/
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
@@ -59,7 +59,7 @@
     padding-bottom: $gutter-spacing-sm;
     padding-left: #{$gutter-spacing + $sp-5};
     font-size: 14px;
-    background-color: $body-background-color;
+    /*background-color: $body-background-color;*/
     transition: padding-left linear #{$transition-duration / 2};
   }
 
