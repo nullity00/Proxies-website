@@ -4,7 +4,7 @@
   z-index: 0;
   display: flex;
   flex-wrap: wrap;
-  background-color: $sidebar-color;
+  /*background-color: $sidebar-color;*/
 
   @include mq(md) {
     flex-wrap: nowrap;
@@ -12,7 +12,7 @@
     width: $nav-width-md;
     height: 100%;
     flex-direction: column;
-    border-right: $border $border-color;
+    /*border-right: $border $border-color;*/
     align-items: flex-end;
   }
 
@@ -51,14 +51,14 @@
 .main-header {
   z-index: 0;
   display: none;
-  background-color: $sidebar-color;
+  /*background-color: $sidebar-color;*/
 
   @include mq(md) {
     display: flex;
     justify-content: space-between;
     height: $header-height;
-    background-color: $body-background-color;
-    border-bottom: $border $border-color;
+    /*background-color: $body-background-color;*/
+    /*border-bottom: $border $border-color;*/
   }
 
   &.nav-open {
@@ -104,7 +104,7 @@
   @include mq(md) {
     height: $header-height;
     max-height: $header-height;
-    border-bottom: $border $border-color;
+    /*border-bottom: $border $border-color;*/
   }
 }
 
@@ -153,8 +153,8 @@
 .site-title:hover {
   background-image: linear-gradient(
     -90deg,
-    rgba($feedback-color, 1) 0%,
-    rgba($feedback-color, 0.8) 80%,
+    rgba($feedback-color, 0.1) 0%,
+    rgba($feedback-color, 0.1) 80%,
     rgba($feedback-color, 0) 100%
   );
 }

@@ -208,6 +208,7 @@
     position: relative;
     margin-top: 1.5em;
     margin-bottom: 0.25em;
+    color: #080444;
 
     + table,
     + .table-wrapper,
@@ -234,5 +235,6 @@
   > .sect4:first-child > h5,
   > .sect5:first-child > h6 {
     margin-top: $sp-2;
+    color: #080444;
   }
 }
