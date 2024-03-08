@@ -32,14 +32,14 @@
       }
 
       @include mq(md) {
-        min-height: $nav-list-item-height;
-        line-height: #{$nav-list-item-height - 2 * $sp-1};
+        /*min-height: $nav-list-item-height;*/
+        /*line-height: #{$nav-list-item-height - 2 * $sp-1};*/
         @if $nav-list-expander-right {
           padding-right: $nav-list-item-height;
-          padding-left: $gutter-spacing;
+          /*padding-left: $gutter-spacing;*/
         } @else {
           padding-right: $gutter-spacing;
-          padding-left: $nav-list-item-height;
+          /*padding-left: $nav-list-item-height;*/
         }
       }
 
